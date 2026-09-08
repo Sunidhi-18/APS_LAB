@@ -1,0 +1,14 @@
+1. Why is standard Accuracy an unsuitable evaluation metric for this dataset?
+- With a $90:10$ class ratio, a dummy classifier predicting the majority 
+  class (Class 0) every time would achieve $90\%$ accuracy while failing completely
+  to detect the minority class (Class 1).
+
+2. Why is Precision-Recall AUC preferred over ROC-AUC for imbalanced datasets?
+- ROC-AUC includes True Negative Rate (Specificity), which remains artificially 
+  high in imbalanced datasets due to the abundance of majority class samples.
+  PR-AUC focuses specifically on the minority class performance (Precision and Recall).
+
+3. How can model performance on the minority class be further improved?
+- Techniques such as SMOTE (oversampling minority class), adjusting the decision 
+  threshold, setting class_weight='balanced', or using tree-based ensemble algorithms 
+  like Random Forest or XGBoost.
