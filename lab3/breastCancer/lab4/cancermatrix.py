@@ -1,6 +1,6 @@
 from sklearn.metrics import confusion_matrix
-from cancerdata import load_and_preprocess_data, get_train_test_data
-from cancermean import train_model
+from lab3.breastCancer.lab4.cancerdata import load_and_preprocess_data, get_train_test_data
+from lab3.breastCancer.lab4.cancermean import train_model
 
 def evaluate_matrix(model, x_test, y_test):
     # Make predictions
