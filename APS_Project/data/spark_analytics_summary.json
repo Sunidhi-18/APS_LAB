@@ -1,0 +1,206 @@
+{
+  "timestamp": "2026-10-27 10:29:52",
+  "total_records": 191459,
+  "total_features": 50,
+  "classes": {
+    "legitimate": {
+      "count": 109661,
+      "percentage": 57.28
+    },
+    "phishing": {
+      "count": 81798,
+      "percentage": 42.72
+    }
+  },
+  "feature_statistics": {
+    "phishing": {
+      "URLLength": {
+        "avg": 45.6029,
+        "std": 63.9142
+      },
+      "DomainLength": {
+        "avg": 24.4321,
+        "std": 12.1793
+      },
+      "IsDomainIP": {
+        "avg": 0.0063,
+        "std": 0.079
+      },
+      "URLSimilarityIndex": {
+        "avg": 49.7686,
+        "std": 22.5701
+      },
+      "CharContinuationRate": {
+        "avg": 0.7298,
+        "std": 0.244
+      },
+      "TLDLegitimateProb": {
+        "avg": 0.2328,
+        "std": 0.2548
+      },
+      "NoOfSubDomain": {
+        "avg": 1.1694,
+        "std": 0.7874
+      },
+      "SpacialCharRatioInURL": {
+        "avg": 0.083,
+        "std": 0.0356
+      },
+      "IsHTTPS": {
+        "avg": 0.4863,
+        "std": 0.4998
+      },
+      "HasPasswordField": {
+        "avg": 0.0531,
+        "std": 0.2242
+      },
+      "HasExternalFormSubmit": {
+        "avg": 0.0041,
+        "std": 0.0641
+      },
+      "Bank": {
+        "avg": 0.0519,
+        "std": 0.2219
+      },
+      "Pay": {
+        "avg": 0.0587,
+        "std": 0.235
+      },
+      "Crypto": {
+        "avg": 0.0061,
+        "std": 0.0777
+      }
+    },
+    "legitimate": {
+      "URLLength": {
+        "avg": 26.2361,
+        "std": 4.8249
+      },
+      "DomainLength": {
+        "avg": 19.2361,
+        "std": 4.8249
+      },
+      "IsDomainIP": {
+        "avg": 0.0,
+        "std": 0.0
+      },
+      "URLSimilarityIndex": {
+        "avg": 100.0,
+        "std": 0.0
+      },
+      "CharContinuationRate": {
+        "avg": 0.9332,
+        "std": 0.1399
+      },
+      "TLDLegitimateProb": {
+        "avg": 0.2818,
+        "std": 0.2471
+      },
+      "NoOfSubDomain": {
+        "avg": 1.1615,
+        "std": 0.4035
+      },
+      "SpacialCharRatioInURL": {
+        "avg": 0.0484,
+        "std": 0.019
+      },
+      "IsHTTPS": {
+        "avg": 1.0,
+        "std": 0.0
+      },
+      "HasPasswordField": {
+        "avg": 0.1384,
+        "std": 0.3453
+      },
+      "HasExternalFormSubmit": {
+        "avg": 0.0737,
+        "std": 0.2612
+      },
+      "Bank": {
+        "avg": 0.1817,
+        "std": 0.3856
+      },
+      "Pay": {
+        "avg": 0.3698,
+        "std": 0.4827
+      },
+      "Crypto": {
+        "avg": 0.0368,
+        "std": 0.1883
+      }
+    }
+  },
+  "top_correlations": [
+    [
+      "URLSimilarityIndex",
+      0.8599
+    ],
+    [
+      "IsHTTPS",
+      0.614
+    ],
+    [
+      "SpacialCharRatioInURL",
+      -0.5308
+    ],
+    [
+      "CharContinuationRate",
+      0.4651
+    ],
+    [
+      "Pay",
+      0.362
+    ],
+    [
+      "DomainLength",
+      -0.2816
+    ],
+    [
+      "URLLength",
+      -0.2227
+    ],
+    [
+      "Bank",
+      0.1932
+    ],
+    [
+      "HasExternalFormSubmit",
+      0.1678
+    ],
+    [
+      "HasPasswordField",
+      0.1394
+    ],
+    [
+      "Crypto",
+      0.1
+    ],
+    [
+      "TLDLegitimateProb",
+      0.0963
+    ],
+    [
+      "IsDomainIP",
+      -0.0601
+    ],
+    [
+      "NoOfSubDomain",
+      -0.0065
+    ]
+  ],
+  "benchmark": {
+    "dataset_rows": 191459,
+    "spark_version": "4.2.0",
+    "spark_partitions": 11,
+    "aggregation_task": {
+      "spark_time_sec": 0.6031,
+      "pandas_time_sec": 0.0171,
+      "speedup_factor": 0.03
+    },
+    "complex_filter_task": {
+      "spark_time_sec": 0.2163,
+      "pandas_time_sec": 0.0032,
+      "filtered_matches": 1255
+    }
+  }
+}
