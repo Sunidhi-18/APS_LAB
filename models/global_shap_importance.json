@@ -1,0 +1,302 @@
+[
+  {
+    "rank": 1,
+    "feature": "URLSimilarityIndex",
+    "importance": 7.65881,
+    "description": "Quantifies structural lexical deviation from benign domain references."
+  },
+  {
+    "rank": 2,
+    "feature": "LineOfCode",
+    "importance": 1.02264,
+    "description": "Reflects webpage markup depth; phishing clones often exhibit distinct line-count profiles."
+  },
+  {
+    "rank": 3,
+    "feature": "IsHTTPS",
+    "importance": 0.45827,
+    "description": "Validates TLS/SSL encrypted transport; absence flags elevated attack exposure."
+  },
+  {
+    "rank": 4,
+    "feature": "NoOfSelfRef",
+    "importance": 0.44787,
+    "description": "Predictive feature for classification."
+  },
+  {
+    "rank": 5,
+    "feature": "NoOfImage",
+    "importance": 0.21642,
+    "description": "Predictive feature for classification."
+  },
+  {
+    "rank": 6,
+    "feature": "NoOfExternalRef",
+    "importance": 0.19486,
+    "description": "Predictive feature for classification."
+  },
+  {
+    "rank": 7,
+    "feature": "LargestLineLength",
+    "importance": 0.11374,
+    "description": "Predictive feature for classification."
+  },
+  {
+    "rank": 8,
+    "feature": "NoOfJS",
+    "importance": 0.08815,
+    "description": "Predictive feature for classification."
+  },
+  {
+    "rank": 9,
+    "feature": "HasDescription",
+    "importance": 0.07264,
+    "description": "Predictive feature for classification."
+  },
+  {
+    "rank": 10,
+    "feature": "HasSocialNet",
+    "importance": 0.04689,
+    "description": "Predictive feature for classification."
+  },
+  {
+    "rank": 11,
+    "feature": "NoOfCSS",
+    "importance": 0.02585,
+    "description": "Predictive feature for classification."
+  },
+  {
+    "rank": 12,
+    "feature": "HasCopyrightInfo",
+    "importance": 0.01671,
+    "description": "Predictive feature for classification."
+  },
+  {
+    "rank": 13,
+    "feature": "NoOfLettersInURL",
+    "importance": 0.01086,
+    "description": "Predictive feature for classification."
+  },
+  {
+    "rank": 14,
+    "feature": "URLCharProb",
+    "importance": 0.00984,
+    "description": "Calculates character distribution probability against English language baseline."
+  },
+  {
+    "rank": 15,
+    "feature": "LetterRatioInURL",
+    "importance": 0.00822,
+    "description": "Predictive feature for classification."
+  },
+  {
+    "rank": 16,
+    "feature": "URLLength",
+    "importance": 0.00041,
+    "description": "Predictive feature for classification."
+  },
+  {
+    "rank": 17,
+    "feature": "SpacialCharRatioInURL",
+    "importance": 0.00034,
+    "description": "Abnormal ratio of delimiters, query operators, and punctuation in the path."
+  },
+  {
+    "rank": 18,
+    "feature": "NoOfEmptyRef",
+    "importance": 0.0,
+    "description": "Predictive feature for classification."
+  },
+  {
+    "rank": 19,
+    "feature": "NoOfPopup",
+    "importance": 0.0,
+    "description": "Predictive feature for classification."
+  },
+  {
+    "rank": 20,
+    "feature": "NoOfiFrame",
+    "importance": 0.0,
+    "description": "Predictive feature for classification."
+  },
+  {
+    "rank": 21,
+    "feature": "HasExternalFormSubmit",
+    "importance": 0.0,
+    "description": "Predictive feature for classification."
+  },
+  {
+    "rank": 22,
+    "feature": "HasSubmitButton",
+    "importance": 0.0,
+    "description": "Predictive feature for classification."
+  },
+  {
+    "rank": 23,
+    "feature": "HasPasswordField",
+    "importance": 0.0,
+    "description": "Detects credential capture forms deployed for credential harvesting."
+  },
+  {
+    "rank": 24,
+    "feature": "HasHiddenFields",
+    "importance": 0.0,
+    "description": "Predictive feature for classification."
+  },
+  {
+    "rank": 25,
+    "feature": "Pay",
+    "importance": 0.0,
+    "description": "Payment gateway keywords indicating transaction interception campaigns."
+  },
+  {
+    "rank": 26,
+    "feature": "Bank",
+    "importance": 0.0,
+    "description": "Presence of banking terminology triggering financial fraud monitoring."
+  },
+  {
+    "rank": 27,
+    "feature": "Crypto",
+    "importance": 0.0,
+    "description": "Cryptocurrency wallet keywords associated with drainer attacks."
+  },
+  {
+    "rank": 28,
+    "feature": "HasTitle",
+    "importance": 0.0,
+    "description": "Predictive feature for classification."
+  },
+  {
+    "rank": 29,
+    "feature": "URLTitleMatchScore",
+    "importance": 0.0,
+    "description": "Predictive feature for classification."
+  },
+  {
+    "rank": 30,
+    "feature": "DomainTitleMatchScore",
+    "importance": 0.0,
+    "description": "Identifies semantic mismatch between target brand name and registration domain."
+  },
+  {
+    "rank": 31,
+    "feature": "NoOfSelfRedirect",
+    "importance": 0.0,
+    "description": "Predictive feature for classification."
+  },
+  {
+    "rank": 32,
+    "feature": "NoOfURLRedirect",
+    "importance": 0.0,
+    "description": "Predictive feature for classification."
+  },
+  {
+    "rank": 33,
+    "feature": "IsResponsive",
+    "importance": 0.0,
+    "description": "Predictive feature for classification."
+  },
+  {
+    "rank": 34,
+    "feature": "Robots",
+    "importance": 0.0,
+    "description": "Predictive feature for classification."
+  },
+  {
+    "rank": 35,
+    "feature": "NoOfEqualsInURL",
+    "importance": 0.0,
+    "description": "Predictive feature for classification."
+  },
+  {
+    "rank": 36,
+    "feature": "NoOfQMarkInURL",
+    "importance": 0.0,
+    "description": "Predictive feature for classification."
+  },
+  {
+    "rank": 37,
+    "feature": "NoOfAmpersandInURL",
+    "importance": 0.0,
+    "description": "Predictive feature for classification."
+  },
+  {
+    "rank": 38,
+    "feature": "NoOfOtherSpecialCharsInURL",
+    "importance": 0.0,
+    "description": "Predictive feature for classification."
+  },
+  {
+    "rank": 39,
+    "feature": "HasFavicon",
+    "importance": 0.0,
+    "description": "Predictive feature for classification."
+  },
+  {
+    "rank": 40,
+    "feature": "ObfuscationRatio",
+    "importance": 0.0,
+    "description": "Predictive feature for classification."
+  },
+  {
+    "rank": 41,
+    "feature": "NoOfDegitsInURL",
+    "importance": 0.0,
+    "description": "Predictive feature for classification."
+  },
+  {
+    "rank": 42,
+    "feature": "DegitRatioInURL",
+    "importance": 0.0,
+    "description": "Predictive feature for classification."
+  },
+  {
+    "rank": 43,
+    "feature": "NoOfSubDomain",
+    "importance": 0.0,
+    "description": "Detects excessive subdomain nesting common in DNS tunneling and brand impersonation."
+  },
+  {
+    "rank": 44,
+    "feature": "HasObfuscation",
+    "importance": 0.0,
+    "description": "Predictive feature for classification."
+  },
+  {
+    "rank": 45,
+    "feature": "NoOfObfuscatedChar",
+    "importance": 0.0,
+    "description": "Count of percent-encoded (%xx) and obfuscated payload characters."
+  },
+  {
+    "rank": 46,
+    "feature": "TLDLength",
+    "importance": 0.0,
+    "description": "Predictive feature for classification."
+  },
+  {
+    "rank": 47,
+    "feature": "CharContinuationRate",
+    "importance": 0.0,
+    "description": "Measures consecutive alphanumeric sequences used to mask malicious paths."
+  },
+  {
+    "rank": 48,
+    "feature": "TLDLegitimateProb",
+    "importance": 0.0,
+    "description": "Historical empirical safety probability of the top-level domain."
+  },
+  {
+    "rank": 49,
+    "feature": "IsDomainIP",
+    "importance": 0.0,
+    "description": "Direct IPv4/IPv6 host destination bypassing traditional DNS reputation checks."
+  },
+  {
+    "rank": 50,
+    "feature": "DomainLength",
+    "importance": 0.0,
+    "description": "Predictive feature for classification."
+  }
+]
